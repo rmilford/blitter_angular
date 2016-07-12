@@ -1,4 +1,5 @@
 "use strict";
+
 (function(){
   angular
   .module("blitter", [
@@ -9,7 +10,6 @@
     "$stateProvider",
     RouterFunction
   ]);
-
 
   function RouterFunction($stateProvider){
     $stateProvider
